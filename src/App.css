@@ -10,7 +10,7 @@
 
 .socialwrapper {
   background-color: #16f6f6;
-  position: relative;
+  width: 100vw;
 }
 
 .yticon {
@@ -116,6 +116,7 @@
 @media only screen and (max-width: 1300px) {
   .taj {
     margin-bottom: 100px;
+    width: 100vw;
   }
   .bulbs {
     display: none;
