@@ -112,7 +112,7 @@
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1080px) {
   .taj {
     width: 100vh;
   }
