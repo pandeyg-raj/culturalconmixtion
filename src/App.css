@@ -65,28 +65,6 @@
   grid-column: 4 / span 4;
 }
 
-.hero {
-  display: grid;
-  grid-column-gap: 15px;
-  grid-template-rows: repeat(10, 10%);
-  grid-template-columns: repeat(10, 10%);
-  width: auto;
-  height: auto;
-}
-
-.taj {
-  max-width: 100%;
-  grid-row: 1 / span 6;
-  grid-column: 2 / span 2;
-}
-
-.hero p {
-  color: white;
-  font-size: 30px;
-  grid-row: 1 / span 8;
-  grid-column: 5 / span 3;
-}
-
 #blight1:hover,
 #blight2:hover,
 #blight3:hover,
@@ -133,4 +111,26 @@
   to {
     visibility: visible;
   }
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    flex-direction: column;
+  }
+  .taj {
+    width: 100vh;
+  }
+}
+
+.taj {
+}
+
+.hero p {
+  color: white;
+  font-size: 30px;
 }
