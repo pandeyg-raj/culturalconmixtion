@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Taj from "./Taj.png";
-import Bulbs from "./Bulbs";
 
 function Hero() {
   return (

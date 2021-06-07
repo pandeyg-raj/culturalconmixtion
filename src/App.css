@@ -52,22 +52,6 @@
 .navcontainer {
   grid-row: 6 / span 1;
   grid-column: 4 / span 4;
-  display: flex;
-  justify-content: space-evenly;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  color: #000000;
-  list-style-type: none;
-}
-
-.navcontainer li {
-  background-color: white;
-  padding: 1px 10px;
-  border-radius: 15px;
-  align-self: center;
-  flex-shrink: 0;
 }
 
 .hero {
