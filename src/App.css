@@ -110,11 +110,13 @@
 .hero {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1300px) {
   .taj {
     width: 100vh;
+    margin-bottom: 100px;
   }
   .bulbs {
     display: none;
@@ -127,10 +129,6 @@
     grid-row: 6 / span 1;
     grid-column: 1 / span 4;
   }
-}
-
-.taj {
-  margin-bottom: 50px;
 }
 
 .hero p {
