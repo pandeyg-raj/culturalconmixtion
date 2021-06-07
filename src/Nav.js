@@ -14,7 +14,7 @@ function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon icon-ccolor"></span>
+          <span className="navbar-toggler-icon icon-color"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav mr-auto">
