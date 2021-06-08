@@ -121,12 +121,16 @@
 
 .hero {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .hero p {
   color: white;
   font-size: 22px;
-  margin-left: 100px;
+}
+.taj {
+  width: 25%;
+  border: solid 3px blueviolet;
 }
 
 @media only screen and (max-width: 1300px) {
