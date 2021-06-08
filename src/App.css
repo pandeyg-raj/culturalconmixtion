@@ -130,12 +130,17 @@
 }
 .taj {
   width: 25%;
-  border: solid 3px blueviolet;
 }
 
+.chic {
+  width: 25%;
+}
 @media only screen and (max-width: 1300px) {
   .taj {
     margin-bottom: 100px;
+    width: 100vw;
+  }
+  .chic {
     width: 100vw;
   }
   .bulbs {
