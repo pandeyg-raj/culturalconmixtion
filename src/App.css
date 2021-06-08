@@ -12,22 +12,22 @@
   background-color: #16f6f6;
 }
 
+.socials a {
+  align-self: center;
+}
 .yticon {
   color: black;
   font-size: 50px;
-  align-self: center;
 }
 
 .instaicon {
   color: black;
   font-size: 45px;
-  align-self: center;
 }
 
 .fbicon {
   color: rgb(8, 8, 8);
   font-size: 40px;
-  align-self: center;
 }
 
 .headercontainer {
