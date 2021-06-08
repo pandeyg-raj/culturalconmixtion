@@ -8,9 +8,23 @@ import instagramFill from "@iconify/icons-akar-icons/instagram-fill";
 function Social() {
   return (
     <div className="socials">
-      <Icon className="yticon" icon={youtubeOutlined} />
-      <Icon className="instaicon" icon={instagramFill} />
-      <Icon className="fbicon" icon={facebookRect} />
+      <a
+        href="https://youtube.com/channel/UCxH2yi2iDwDQ1oW8gAbCeEw"
+        target="_blank"
+        title="culural conmixtion"
+      >
+        <Icon className="yticon" icon={youtubeOutlined} />
+      </a>
+      <a
+        href="https://www.instagram.com/culturalconmixtion"
+        target="_blank"
+        title="culural conmixtion"
+      >
+        <Icon className="instaicon" icon={instagramFill} />
+      </a>
+      <a href="#" target="_blank" title="culural conmixtion">
+        <Icon className="fbicon" icon={facebookRect} />
+      </a>
     </div>
   );
 }
