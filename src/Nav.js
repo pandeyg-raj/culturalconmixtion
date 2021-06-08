@@ -4,7 +4,7 @@ import "./App.css";
 function Nav() {
   return (
     <div className="navcontainer">
-      <nav className="navbar navbar-expand-lg   ">
+      <nav className="navbar navbar-expand-lg  navbar-light red">
         <button
           className="navbar-toggler"
           type="button"
@@ -14,13 +14,13 @@ function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="myicon "></span>
+          <span className="navbar-toggler-icon icon-color"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mr-auto ">
+          <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                about us <span className="sr-only">(current)</span>
+                aboutus <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">

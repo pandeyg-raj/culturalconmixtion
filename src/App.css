@@ -64,15 +64,13 @@
   margin: 0px 30px;
   border-radius: 25px;
 }
-.nav-link {
+.myclass {
   color: black;
 }
 .navbar-toggler {
-  background-color: red;
+  background-color: white;
 }
-.navbar-toggler-icon {
-  color: white;
-}
+
 #blight1:hover,
 #blight2:hover,
 #blight3:hover,
