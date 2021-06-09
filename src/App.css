@@ -155,13 +155,17 @@
 .hero p {
   color: white;
   font-size: 22px;
+  margin: 10px 100px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8;
 }
 .taj {
   width: 25%;
 }
 
 .taj:hover {
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .chic {
@@ -169,7 +173,7 @@
 }
 
 .chic:hover {
-  opacity: 0;
+  opacity: 0.5;
 }
 @media only screen and (max-width: 1300px) {
   .taj {
