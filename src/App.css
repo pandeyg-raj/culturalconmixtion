@@ -132,8 +132,16 @@
   width: 25%;
 }
 
+.taj:hover {
+  opacity: 0;
+}
+
 .chic {
   width: 25%;
+}
+
+.chic:hover {
+  opacity: 0;
 }
 @media only screen and (max-width: 1300px) {
   .taj {
