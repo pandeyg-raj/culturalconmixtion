@@ -42,10 +42,37 @@
   grid-row: 2 / span 1;
 }
 .topimage {
-  max-width: 100%;
-  grid-column: 4 / span 5;
+  grid-column: 3 / span 5;
+  grid-row: 2 / span 1;
 }
 
+#toplogo path {
+  stroke-dasharray: 600px;
+  stroke-dashoffset: 600px;
+  animation: line-anim 4s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#indflag,
+#maxflag {
+  animation: aniindflag 4s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes aniindflag {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
 .bulbs {
   max-height: 100%;
   max-width: 100%;
