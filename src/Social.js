@@ -22,7 +22,9 @@ function Social() {
       >
         <Icon className="instaicon" icon={instagramFill} />
       </a>
-      <a href="#" target="_blank" title="culural conmixtion">
+      <a 
+        href="https://www.facebook.com/CulturalConmixtion/" 
+        target="_blank" title="culural conmixtion">
         <Icon className="fbicon" icon={facebookRect} />
       </a>
     </div>
